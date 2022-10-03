@@ -1,0 +1,94 @@
+/* 초기 세팅 */
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont,
+    /* 한글 폰트 들어갈 자리 */ "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  /* `font` 속성 리셋 */
+  font-size: 16px;
+  /* 기본 글골 사이즈 정의            : 16x => 1rem */
+  font-weight: normal;
+  line-height: 1.5;
+  /* 단위 쓰지 말것 */
+  background-color: rgba(251, 230, 255, 0.579);
+  color: #4d5058;
+  /* 글꼴 크기 조정을 방지 */
+  -webkit-text-size-adjust: 100%;
+  /* 폰트를 부드럽게 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 웹킷 마음대로 눌림 하이라이트 막음 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+
+/* 시작  */
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.util_menu > img {
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: black;
+}
+.util_menu {
+  display: inline-block;
+  width: 20%;
+}
+
+.icon {
+  width: 15px;
+  cursor: pointer;
+}
+
+button {
+  width: 73px;
+  background-color: rgba(203, 138, 249, 0.866);
+  border-radius: 20px;
+  padding: 5px 10px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav_icon {
+  padding-right: 5px;
+  width: 25px;
+  opacity: 70%;
+}
+
+card_section {
+  display: flex;
+}
