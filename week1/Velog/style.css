@@ -52,10 +52,11 @@ header {
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: black;
+  cursor: pointer;
 }
 .util_menu {
   display: inline-block;
-  width: 20%;
+  width: 15%;
 }
 
 .icon {
@@ -89,6 +90,58 @@ nav {
   opacity: 70%;
 }
 
+.clock {
+  margin-left: 20px;
+}
+
+.pick {
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4d5058;
+  margin-left: 20px;
+}
+
+.menu_icon {
+  width: 25px;
+  float: right;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
 card_section {
   display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card_text {
+  width: 100%;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.line {
+  width: 100%;
+  margin-left: -10px;
+}
+.ca {
+  width: 33%;
+  height: 350px;
+  background-color: rgba(55, 55, 55, 0.168);
+  border-radius: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  opacity: 20%;
 }
