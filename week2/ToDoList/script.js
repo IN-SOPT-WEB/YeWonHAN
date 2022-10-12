@@ -44,3 +44,14 @@ function togetherBtnClick() {
 today.addEventListener("click", todayBtnClick);
 tomorrow.addEventListener("click", tomorrowBtnClick);
 together.addEventListener("click", togetherBtnClick);
+
+///////////////////////
+// 2. 입력 후 li 추가 //
+// 3. 삭제 li 삭제    //
+///////////////////////
+
+// 사용할 변수 선언
+let inputBox = document.querySelector(".add_input"); // 할 일 입력창
+let addToDo = document.querySelector(".btn"); // 버튼
+let toDoList = document.querySelector(".list"); // 할 일 리스트창
+let trash = document.querySelector(".trash_icon");
