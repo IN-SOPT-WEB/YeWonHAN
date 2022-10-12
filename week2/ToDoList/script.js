@@ -11,3 +11,36 @@ const together = document.querySelector(".together");
 const rightSection = document.querySelector(".rSection");
 const leftSection = document.querySelector(".lSection");
 const clickedClass = "hidden";
+
+//버튼 클릭시 사용할 함수 선언
+function todayBtnClick() {
+  //만약 hidden 있으면, remove. 없으면 add.
+  if (rightSection.classList.contains(clickedClass)) {
+    rightSection.classList.remove(clickedClass);
+  } else {
+    rightSection.classList.add(clickedClass);
+  }
+}
+
+function tomorrowBtnClick() {
+  if (leftSection.classList.contains(clickedClass)) {
+    leftSection.classList.remove(clickedClass);
+  } else {
+    leftSection.classList.add(clickedClass);
+  }
+}
+
+function togetherBtnClick() {
+  if (
+    leftSection.classList.contains(clickedClass) ||
+    rightSection.classList.contains(clickedClass)
+  ) {
+    leftSection.classList.remove(clickedClass);
+    rightSection.classList.remove(clickedClass);
+  }
+}
+
+//click 시 함수 사용
+today.addEventListener("click", todayBtnClick);
+tomorrow.addEventListener("click", tomorrowBtnClick);
+together.addEventListener("click", togetherBtnClick);
