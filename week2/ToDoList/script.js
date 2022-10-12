@@ -79,3 +79,9 @@ inputBox.addEventListener("keydown", (event) => {
     plusToDo();
   }
 });
+
+// 삭제 함수
+function deleteToDo(event) {
+  const removingOne = event.target.parentElement;
+  removingOne.remove();
+}
