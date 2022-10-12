@@ -51,7 +51,31 @@ together.addEventListener("click", togetherBtnClick);
 ///////////////////////
 
 // 사용할 변수 선언
-let inputBox = document.querySelector(".add_input"); // 할 일 입력창
-let addToDo = document.querySelector(".btn"); // 버튼
-let toDoList = document.querySelector(".list"); // 할 일 리스트창
-let trash = document.querySelector(".trash_icon");
+let inputBox = document.querySelector(".add_input"); // input
+let addToDo = document.querySelector(".btn"); // input 옆 btn
+let toDoList = document.querySelector(".list"); // 할 일 list
+let trash = document.querySelector(".trash_icon"); // list 지우는 icon
+
+function plusToDo() {
+  var list = document.createElement("li"); // li 생성
+
+  //경고창
+  if (!inputBox.value) {
+    alert("입력된 내용이 없습니다");
+  } else {
+    list.innerText = inputBox.value; // 입력 값 li와 함께 추가
+    list.innerHTML +=
+      "<img src='./img/trash.png' alt='add' class='trash_icon' /> <hr class='list_line' /> ";
+    toDoList.appendChild(list);
+    toDoList.addEventListener("click", deleteToDo); //삭제 동작
+    inputBox.value = ""; // 초기화
+  }
+}
+
+// click시, space 입력시 함수 실행
+addToDo.addEventListener("click", plusToDo);
+inputBox.addEventListener("keydown", (event) => {
+  if (event.keyCode === 13) {
+    plusToDo();
+  }
+});
