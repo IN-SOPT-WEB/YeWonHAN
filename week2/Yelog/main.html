@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Yelog</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Yelog</div>
+        <div class="util_menu">
+            <img src="./img/moon.png" alt="moon_icon" class="icon" />
+            <img src="./img/find.png" alt="find_icon" class="icon" />
+            <a href="./write.html"><button class="log_in">새 글 작성</button></a>
+        </div>
+    </header>
+    <div class="nav-content">
+        <nav>
+            <div class="gnb">
+                <button class="nav_button trend"><img src="./img/trend.png" alt="trend_icon"
+                        class="nav_icon" />트렌딩</button>
+                <button class="nav_button clock"><img src="./img/clock.png" alt="clock_icon" class="nav_icon" />
+                    최신</button>
+                <img src="./img/menu.png" alt="menu_icon" class="menu_icon" />
+
+                <!-- html로만 만드는 dropDown 코드 -->
+                <!-- <select name="option" class="pick">
+        <option value="today">오늘</option>
+        <option value="week" selected>이번 주</option>
+        <option value="month">이번 달</option>
+        <option value="year">올해</option>
+      </select> -->
+
+                <!-- js를 위한 dropDown html 코드 -->
+                <div class="dropDownBox">
+                    <div class="dropDownFace">
+                        <span class="faceText">이번 주</span>
+                        <span class="triangle">&#x25BC;</span>
+                    </div>
+
+                    <div class="dropDownBg">
+                        <ul class="options">
+                            <li class="option">
+                                <span class="optionText">오늘 &nbsp;&nbsp;&nbsp;</span>
+                            </li>
+                            <li class="option">
+                                <span class="optionText">이번 주</span>
+                            </li>
+                            <li class="option">
+                                <span class="optionText">이번 달</span>
+                            </li>
+                            <li class="option" style="border:none;">
+                                <span class="optionText">올해&nbsp;&nbsp;&nbsp</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <card_section>
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+        </card_section>
+        <card_section>
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+        </card_section>
+        <card_section>
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+
+            <div class="card_all"><img src="./img/card_img.png" alt="card" class="card" />
+                <div class="card_text">
+                    <p class="title">Thinking in React</p>
+                    <p class="sub_title">소프트웨어 마에스트로 컨퍼런스 발표(22.09.29)</p>
+                    <p class="date_comment">2022년 9월 29일 · 10개의 댓글</p>
+                    <hr class="line">
+                    <p class="person"><img src="./img/profile.png" alt="profile_icon" class="profile_icon"> by
+                        <b>Hyunjine</b>
+                        <img src="./img/like.png" alt="like" class="like_icon"> 107
+                    </p>
+                </div>
+            </div>
+        </card_section>
+    </div>
+    <footer>2022-10-05</footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

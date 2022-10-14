@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgba(168, 125, 253, 0.438);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  height: 33px;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav > button {
+  margin-right: 3px;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  font: 4px sans-serif;
+  font-weight: 500;
+  padding: 4px 13px;
+}
+
+nav > button:hover {
+  background-color: rgba(101, 24, 255, 0.685);
+  color: white;
+  font-weight: 600;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.422);
+  cursor: pointer;
+}
+
+main {
+  padding: 2%;
+  background-color: rgb(246, 249, 252);
+  display: flex;
+  justify-content: center;
+}
+
+left-section {
+  margin-right: 10px;
+  background-color: rgb(219, 235, 248);
+  border-radius: 10px;
+  height: 100%;
+}
+
+right-section {
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 175, 0.793);
+  height: 100%;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.list_line {
+  border-top: 1px dashed;
+  width: 90%;
+}
+
+ul {
+  padding-top: 10px;
+  margin-left: -25px;
+}
+
+li {
+  font-size: 2px;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.add {
+  margin: 10px;
+  padding-top: 100%;
+  padding-bottom: 7%;
+}
+
+.add_icon {
+  width: 10px;
+}
+
+.add > button {
+  margin-left: 2px;
+  background-color: rgba(255, 212, 41, 0.318);
+  border: 1px;
+  border-radius: 3px;
+  padding: 2px 5px;
+  border-style: solid;
+}
+
+.add > button:hover {
+  cursor: pointer;
+  background-color: wheat;
+}
+footer {
+  background-color: rgb(57, 57, 57);
+  color: rgba(255, 255, 255, 0.61);
+  text-align: right;
+  font: 5px sans-serif;
+}
+
+.trash_icon {
+  width: 13px;
+  float: right;
+  cursor: pointer;
+}
+
+/* js를 위한 class */
+.hidden {
+  overflow: hidden;
+  width: 0;
+}
