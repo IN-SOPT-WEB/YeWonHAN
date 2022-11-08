@@ -1,0 +1,26 @@
+html {
+  margin: 10px;
+}
+
+input {
+  border: none;
+  background: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* tag 추가시, css */
+.tag {
+  background-color: #cf1be3;
+  color: #ffffff;
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 15px;
+  cursor: pointer;
+}

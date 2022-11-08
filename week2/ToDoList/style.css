@@ -1,22 +1,21 @@
 * {
-  margin: auto 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
   background-color: rgba(168, 125, 253, 0.438);
   color: white;
+  text-align: center;
   text-shadow: 1px 1px black;
   height: 33px;
   line-height: 33px;
-  text-align: center;
   margin-bottom: 10px;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  place-items: center;
+  text-align: center;
   margin-bottom: 10px;
 }
 
@@ -39,17 +38,34 @@ nav > button:hover {
 }
 
 main {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
+  padding: 2%;
   background-color: rgb(246, 249, 252);
+  display: flex;
+  justify-content: center;
 }
 
-left-section,
+left-section {
+  margin-right: 10px;
+  background-color: rgb(219, 235, 248);
+  border-radius: 10px;
+  height: 100%;
+}
+
 right-section {
-  width: 50%;
-  height: 350px;
-  margin-left: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 175, 0.793);
+  height: 100%;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.list_line {
+  border-top: 1px dashed;
+  width: 90%;
 }
 
 ul {
@@ -65,33 +81,10 @@ li {
   width: 90%;
 }
 
-.trash_icon {
-  width: 13px;
-  float: right;
-}
-
-ul > hr {
-  width: 90%;
-  border-top: 1px dashed;
-  border-bottom: 0px;
-}
-
-.line {
-  border-left: 1px dotted gray;
-  height: 400px;
-}
-
 .add {
-  position: absolute;
-  bottom: 30px;
-}
-
-left-section > .add {
-  right: 55%;
-}
-
-right-section > .add {
-  right: 5%;
+  margin: 10px;
+  padding-top: 100%;
+  padding-bottom: 7%;
 }
 
 .add_icon {
@@ -111,13 +104,21 @@ right-section > .add {
   cursor: pointer;
   background-color: wheat;
 }
-
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   background-color: rgb(57, 57, 57);
   color: rgba(255, 255, 255, 0.61);
   text-align: right;
   font: 5px sans-serif;
+}
+
+.trash_icon {
+  width: 13px;
+  float: right;
+  cursor: pointer;
+}
+
+/* js를 위한 class */
+.hidden {
+  overflow: hidden;
+  width: 0;
 }

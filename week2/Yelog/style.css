@@ -1,0 +1,225 @@
+html {
+  margin: 30px;
+  position: absolute;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  height: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.util_menu {
+  display: inline-block;
+}
+
+.util_menu > img {
+  margin-right: 15px;
+}
+
+.icon {
+  width: 15px;
+  cursor: pointer;
+}
+
+.log_in {
+  width: 100px; /*73px 였음. 로그인 때.*/
+  background-color: rgba(203, 138, 249, 0.866);
+  border-radius: 20px;
+  padding: 5px 10px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav_icon {
+  padding-right: 5px;
+  width: 25px;
+  opacity: 70%;
+}
+
+.nav_button {
+  padding-top: 6px;
+  border-style: none;
+  width: 100px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.trend {
+  border-bottom: 2px solid;
+  padding-bottom: 8px;
+}
+
+.pick {
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4d5058;
+  margin-left: 20px;
+}
+
+.menu_icon {
+  width: 25px;
+  right: 25px;
+  padding-top: 20px;
+  position: absolute;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+card_section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.card_all {
+  display: block;
+  width: 100%;
+  margin-right: 5px;
+  border-radius: 10px;
+  background-color: rgba(55, 55, 55, 0.168);
+}
+
+.card {
+  border-radius: 10px 10px 0 0;
+}
+
+.card_text {
+  width: 100%;
+  font-size: 14px;
+  padding: 0px 0 0 15px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub_title {
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.date_comment {
+  margin-top: 45px;
+  font-size: 11px;
+}
+
+.line {
+  margin-top: 5px;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.profile_icon {
+  width: 20px;
+  vertical-align: bottom;
+  border-radius: 10px;
+}
+
+.like_icon {
+  width: 20px;
+  vertical-align: bottom;
+  border-radius: 30px;
+  margin-left: 45%;
+}
+
+.person {
+  font-size: 13px;
+}
+
+footer {
+  padding-top: 20px;
+  opacity: 20%;
+}
+
+/* 추가 */
+
+.dropDownBox {
+  width: 130px;
+  float: right;
+  position: relative;
+}
+
+.dropDownBg {
+  position: relative;
+}
+
+.dropDownBox .dropDownFace {
+  display: flex;
+  padding: 20px;
+  height: 10px;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropDownBox .options {
+  position: relative;
+  padding: 6px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 3px;
+  display: none;
+}
+.dropDownBox.active .options {
+  display: block;
+}
+.options .option {
+  display: flex;
+  height: 40px;
+  border-width: 2px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-style: none none solid;
+  border-width: 1px;
+  align-items: center;
+  background: #fff;
+  z-index: 3;
+}
+.options .option:hover {
+  background: #f2f2f2dc;
+}
+
+.option .optionText {
+  font-size: 13px;
+}
+
+.triangle {
+  margin-left: 29px;
+}
+
+.optionText.active {
+  color: rgb(225, 0, 255);
+}

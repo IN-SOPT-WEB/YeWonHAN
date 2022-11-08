@@ -1,0 +1,117 @@
+<<<<<<< HEAD:week1/ToDoList/toDoList.html
+<!-- 깃 업로드 -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>ToDoList</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <h4>To Do List</h4>
+    </header>
+    <!-- nav 3개 버튼 가운데 배치 -->
+    <nav>
+      <button>오늘만 보기</button>
+      <button>내일만 보기</button>
+      <button>함께 보기</button>
+    </nav>
+    <hr />
+    <!-- 투두리스트 start -->
+    <main>
+      <!--오늘할일 ul,li -->
+      <left-section>
+        <h5>> 오늘 할 일</h5>
+        <div class="add">
+          <input type="text" /><button>
+            <img src="./img/add.png" alt="add" class="add_icon" />
+          </button>
+        </div>
+      </left-section>
+
+      <div class="line"></div>
+
+      <!-- 내일할일 +리스트 구분선/ 삭제 버튼 -->
+      <right-section>
+        <h5>> 내일 할 일</h5>
+        <ul>
+          <li>
+            예시 1
+            <img src="./img/trash.png" alt="add" class="trash_icon" />
+          </li>
+          <hr />
+          <li>
+            예시 2
+            <img src="./img/trash.png" alt="add" class="trash_icon" />
+          </li>
+        </ul>
+        <div class="add">
+          <input type="text" /><button>
+            <img src="./img/add.png" alt="add" class="add_icon" />
+          </button>
+        </div>
+      </right-section>
+      <!-- input + add button -->
+    </main>
+    <footer>2022-10-02 Made by HYW</footer>
+  </div>
+</body>
+
+</html>
+=======
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header><h4>To Do List</h4></header>
+      <!-- nav 3개 버튼 가운데 배치 -->
+      <nav>
+        <button class="today">오늘만 보기</button>
+        <button class="tomorrow">내일만 보기</button>
+        <button class="together">함께 보기</button>
+      </nav>
+      <hr />
+      <!-- 투두리스트 start -->
+      <main>
+        <!--오늘할일 ul,li -->
+        <left-section class="lSection">
+          <h5>&gt; 오늘 할 일 &lt;</h5>
+          <ul class="list"></ul>
+          <div class="lAdd add">
+            <input type="text" class="add_input" /><button class="btn">
+              <img src="./img/add.png" alt="add" class="add_icon" />
+            </button>
+          </div>
+        </left-section>
+
+        <!-- 내일할일 +리스트 구분선/ 삭제 버튼 -->
+        <right-section class="rSection">
+          <h5>&gt; 내일 할 일 &lt;</h5>
+          <ul class="list"></ul>
+          <div class="RAdd add">
+            <input type="text" class="add_input" /><button class="btn">
+              <img src="./img/add.png" alt="add" class="add_icon" />
+            </button>
+          </div>
+        </right-section>
+        <!-- input + add button -->
+      </main>
+      <footer>2022-10-02 Made by HYW</footer>
+    </div>
+  </body>
+</html>
+>>>>>>> 2dde3d568f1604fc49fe64a594e07b95240e5e48:week2/ToDoList/main.html
