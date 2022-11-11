@@ -12,6 +12,8 @@
 |2주차|심화|진짜 해야하는데...|
 |2주차|생각|진짜 해야하는데...|
 |3주차|기본,심화,생각|https://github.com/IN-SOPT-WEB/YeWonHAN/pull/6|
+|4주차|기본|https://github.com/IN-SOPT-WEB/YeWonHAN/pull/8|
+
 
 
 
