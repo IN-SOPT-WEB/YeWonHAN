@@ -11,6 +11,8 @@
 |2주차|생각|https://github.com/IN-SOPT-WEB/YeWonHAN/blob/main/week2/week2_Thinking.md|
 |3주차|기본,심화,생각|https://github.com/IN-SOPT-WEB/YeWonHAN/pull/6|
 |4주차|기본|https://github.com/IN-SOPT-WEB/YeWonHAN/pull/8|
+|4주차|생각|https://github.com/IN-SOPT-WEB/YeWonHAN/blob/main/week4/week4_Thinking.md|
+
 
 
 
