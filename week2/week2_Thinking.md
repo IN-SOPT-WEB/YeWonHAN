@@ -1,4 +1,4 @@
-😀😀About TypeScript😀😀
+# 😀😀About TypeScript😀😀
 
 
 🥰 TypeScript는 무엇인가?
