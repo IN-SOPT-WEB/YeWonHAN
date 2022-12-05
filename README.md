@@ -1,7 +1,7 @@
 # YeWonHAN
 
 🕐 🕑 🕒 🕓 🕔 🕕 🕖 🕗 🕘 🕙 🕚 🕛 🕜 🕝 🕞 🕟 🕠 🕡 🕢 🕣 🕤 🕥 🕦 🕧
-### 😄1주차😄
+### 😄SOPT 뚱땅뚱땅😄
 |주차|과제|링크|
 |:---:|:---:|---|
 |1주차|기본1|https://github.com/IN-SOPT-WEB/YeWonHAN/pull/3|
@@ -14,7 +14,5 @@
 
 
 
-
-<span style="color:red">SOPT</span>
 
 🕐 🕑 🕒 🕓 🕔 🕕 🕖 🕗 🕘 🕙 🕚 🕛 🕜 🕝 🕞 🕟 🕠 🕡 🕢 🕣 🕤 🕥 🕦 🕧
